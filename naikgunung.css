@@ -1,6 +1,49 @@
 .carousel {
     height: 50px;
-
-  
     
 }
+div.transbox {
+    margin: 200px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    width: 275px;
+  }
+  
+  div.transbox p {
+    margin: 20%;
+    font-weight: bold;
+    color: #000000;
+  }
+.login {
+    padding: 1em;
+    margin: 2em auto;
+    width: 17em;
+    background: #fff;
+    border-radius: 3px;
+  }
+   
+  label {
+    font-size: 10pt;
+    color: black;
+  }
+   
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    padding: 8px;
+    width: 95%;
+    background: #efefef;
+    border: 0;
+    font-size: 10pt;
+    margin: 6px 0px;
+  }
+   
+  .tombol {
+    background: yellow;
+    color:black;
+    border: 0;
+    padding: 5px 8px;
+  }
+  
