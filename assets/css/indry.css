@@ -1,0 +1,33 @@
+/*=============== Header ================*/
+nav a img{
+    width: 80px;
+	height: 80px;
+}
+
+.navbar{
+	padding: 10px 0 10px 0;
+}
+
+.navbar ul li{
+	font-size: large;
+}
+
+/*=============== Footer ================*/
+footer{
+	background-color: #87CEFA;
+}
+
+#connect{
+	color: #191970;
+}
+
+/*=============== Caraosel ================*/
+.carouselExampleIndicators .carousel-inner form{
+	position: absolute
+}
+
+/*=============== Content ================*/
+
+#konten .container .row h1{
+    padding-top: 100px;
+}

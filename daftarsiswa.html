@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Siswa</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="assets/css/indry.css">
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="container">
+        <caption>
+            <h1>Daftar Siswa</h1>
+        </caption>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Id Siswa</th>
+                <th scope="col">Nama Siswa</th>
+                <th scope="col">Tgl Lahir</th>
+                <th scope="col">Kelas</th>
+                <th scope="col">Nama Ortu</th>
+                <th scope="col">Nama Wali Kelas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td id="id_siswa"></td>
+                <td id="nama_siswa"></td>
+                <td id="birthday"></td>
+                <td id="id_kelas"></td>
+                <td id="nm_ortu"></td>
+                <td id="nm_guru"></td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 2000
+        })
+    </script>
+</body>
+
+</html>
